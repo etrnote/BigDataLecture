@@ -3,7 +3,8 @@
 1. clone repo
 
 ```bash
-> git clone https://github.com/etrnote/BigDataLecture.git
+git config --global http.sslVerify false
+git clone https://github.com/etrnote/BigDataLecture.git
 ```
 
 
@@ -11,7 +12,7 @@
 2. create a new python virtual environment
 
 ```bash
-> python3 -m venv .
+python -m venv .
 ```
 
 
@@ -19,7 +20,7 @@
 3. Activate virtual env
 
 ```bash
-> venv\Scripts\activate.bat
+venv\Scripts\activate.bat
 ```
 
 
