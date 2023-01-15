@@ -25,15 +25,26 @@
 
 
 4. Cd into the project directory
-5. installl the requirement file
+
+
+5. run the following command to avoid certificate issues:
+```bash
+pip config set global.trusted-host \
+    "pypi.org files.pythonhosted.org pypi.python.org" \
+    --trusted-host=pypi.python.org \
+    --trusted-host=pypi.org \
+    --trusted-host=files.pythonhosted.org
+ ```
+
+6. installl the requirement file
 
 ```bash
-> pip3 install -r requirements.txt
+> pip install -r requirements.txt
 ```
 
 
 
-6. Start a new notebook by running `jupyter-lab`
+7. Start a new notebook by running `jupyter-lab`
 
 
 
