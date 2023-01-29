@@ -45,7 +45,7 @@ pip config set global.trusted-host \
 
 
 
-7. Start a new notebook by running `jupyter-lab`
+7. Start a new notebook by running `jupyter-lab` or if that doesn't work: `python -m jupyterlab`
 
 
 
