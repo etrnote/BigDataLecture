@@ -42,10 +42,18 @@ pip config set global.trusted-host \
 ```bash
 > pip install -r requirements.txt
 ```
-
+If that doesn't work, try installing these packages separately:
+```bash
+pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org pyspark
+pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org jupyter
+pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org pandas
+pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org numpy
+```
 
 
 7. Start a new notebook by running `jupyter-lab` or if that doesn't work: `python -m jupyterlab`
+
+8. If the web interface doesn't open automatically, manually insert this link: `http://localhost:8888/`
 
 
 
