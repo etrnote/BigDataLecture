@@ -1,13 +1,13 @@
 #### Install Environment
 
-1. clone repo
+1. create a directory, cd into it and clone repo there 
 
 ```bash
 git config --global http.sslVerify false
 git clone https://github.com/etrnote/BigDataLecture.git
 ```
 
-
+try step 7 to see if it's already installed, if not go back to step 2 and continue from there
 
 2. create a new python virtual environment
 
